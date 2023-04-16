@@ -1,0 +1,33 @@
+.paginate-container{
+  width:100%;
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul{
+  width:100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul li{
+  list-style: none;
+  padding: 2px 2px;
+  cursor: pointer;
+  scale:1.1;
+}
+
+li:hover{
+  scale:1.5;
+}
+
+.pagination li.active {
+  color: white;
+  border-color: #292a2b;
+  scale:1.5;
+  background-color: #549be7;
+  border-radius: 50%;
+  width:20px;
+}

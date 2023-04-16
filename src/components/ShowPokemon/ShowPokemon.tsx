@@ -7,11 +7,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
-function MyComponent() {
-  return <FontAwesomeIcon icon={faUser} />;
-}
-
-
 type TotalTypes = {
   [key in PokemonType]: string;
 }
