@@ -31,6 +31,7 @@ const PaginatedData: React.FC<Props> = ({ itemsPerPage, items }) => {
   useEffect(() => {
       let filter = items.filter(item => item.name.includes(search))
       setFilterPokemons(filter)
+      // setCurrentPage(1)
   }, [search])
   
   

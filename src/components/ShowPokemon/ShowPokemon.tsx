@@ -60,9 +60,30 @@ const INIT_POKEMON = {
   weight: 0,
   height: 0,
   stats: [{
-    name:"",
+    name:"Hp",
     base: 0
-  }]
+    },
+    {
+    name:"Attack",
+    base: 0
+    },
+    {
+    name:"Defense",
+    base: 0
+    },
+    {
+    name:"Special-attack",
+    base: 0
+    },
+    {
+    name:"Special-defense",
+    base: 0
+    },
+    {
+    name:"Speed",
+    base: 0
+    }
+  ]
 }
 
 interface StatData {
