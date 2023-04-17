@@ -145,9 +145,12 @@ export default function ShowPokemon(){
                 </Link>  
               }
               <img className="show-img" src={pokemon.image} alt="Sin imagen"/>
-              <Link to={`/pokemon/${parseInt(id)+1}`} className="link">
-                <FontAwesomeIcon icon={faChevronRight} size="4x"/>
-              </Link>
+              {id === "1008" ? 
+                null :
+                <Link to={`/pokemon/${parseInt(id)+1}`}  className="link">
+                  <FontAwesomeIcon icon={faChevronRight} size="4x"/>
+                </Link>  
+              }
             </>
             : null
           }

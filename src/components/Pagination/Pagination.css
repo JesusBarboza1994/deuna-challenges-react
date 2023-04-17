@@ -6,6 +6,13 @@
   justify-content: center;
 }
 
+.main-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: space-evenly;
+}
+
 ul{
   width:100%;
   display: flex;
@@ -29,5 +36,35 @@ li:hover{
   scale:1.5;
   background-color: #549be7;
   border-radius: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
   width:20px;
+}
+
+.search{
+  margin-top:40px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  display: flex;
+  gap:2px;
+  width:200px;
+  align-items: center;
+  border-radius:6px;
+  padding:4px;
+  padding-left: 8px;
+}
+
+.search-input{
+  font-size: 20px;
+  border:none;
+}
+
+.search:focus-within{
+  outline: 2px solid black;
+}
+
+.search-input:focus{
+  outline: none;
 }
