@@ -1,5 +1,5 @@
 # Imagen base
-FROM node:latest
+FROM node:18
 
 # Establece el directorio de trabajo en la carpeta "app"
 WORKDIR /src
